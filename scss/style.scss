@@ -30,17 +30,24 @@ nav{
 
 
 /*IMAGENES*/
+
+/*Aplico y pruebo MIXINS*/
+
+@mixin foto ($width, $height){
+    width: $width;
+    height: $height;
+}
+
 .fotoProducto{
+    @include foto(400px, 400px);
     border-radius: 10%;
-    width: 400px;
-    height: 400px;
+
 
     transition: width 2s, height 2s;
 }
 
 .fotoProducto:hover{
-    width: 800px;
-    height: 600px;
+   @include foto(800px,600px )
 }    
 
 /*BODY*/
@@ -90,3 +97,4 @@ footer{
 
 }
 }
+
