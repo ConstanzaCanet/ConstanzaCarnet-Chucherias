@@ -123,7 +123,6 @@
 /*BOTONES BLOQUE 4*/
 /*COLORES(ALGUNS)*/
 /*LETRAS*/
-/*AQUI UTILICÉ EL FOR, NO SABÍA BIEN DONDE USARLO Y CREO QUE ERA UNA BUENA FORMA DE APLICARLO*/
 .b3 {
   background-color: #726cf8;
   background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
@@ -144,7 +143,7 @@
     font-family: "Crimson Text", serif;
     font-weight: normal; }
 
-/*Bucle*/
+/*BUCLE FOR*/
 .fila-1 {
   font-size: 3em; }
 
@@ -273,23 +272,11 @@
   justify-content: center;
   width: 90%;
   margin-left: 5%; }
-  .LoguinForm label {
-    font-style: italic;
-    font-weight: normal;
-    font-family: "Crimson Text", serif;
-    font-size: 130%; }
   .LoguinForm legend {
     text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    font-family: "Crimson Text", serif;
-    font-size: 150%; }
+    font-weight: bold; }
   .LoguinForm input {
-    font-size: 100%;
     transition: all 1s; }
-  .LoguinForm .botonFormulario {
-    font-family: "Crimson Text", serif;
-    font-size: 100%; }
 
 .bott {
   text-align: center; }
@@ -297,6 +284,43 @@
 form input:focus {
   padding: 30px 70px;
   font-size: 200%; }
+
+/*EACH de ejmplo, repito proopiedades en estos elementos*/
+.Nombre {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
+
+.Apellido {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
+
+.email {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
+
+.Contraseña {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
+
+.Direccion {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
+
+.condicion {
+  display: inline-block;
+  font-size: 150%;
+  font-family: "Crimson Text", serif;
+  font-weight: normal; }
 
 nav {
   background-color: #f977ce;

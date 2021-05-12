@@ -18,7 +18,6 @@
 
 
     font-family:$_Crim;
-    font-size: 30px;
     font-weight: normal;
     
     .b3__pun{
@@ -31,12 +30,14 @@
 
     .b3__fech{
         font-family:$_Crim;
-        font-size: 20px;
         font-weight: normal;
     }
 }
 
-
+/*BUCLE FOR*/
+@for $i from 1 through 3 {
+   .fila-#{$i} { font-size: 4em - $i;}
+}
 
 .b4{
     width: 100vh;

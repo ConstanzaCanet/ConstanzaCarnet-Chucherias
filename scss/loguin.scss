@@ -18,31 +18,14 @@
    width: 90%;
    margin-left: 5%;
 
-   label{
-    font-style: italic;
-    font-weight:normal;
-    font-family: $_Crim;
-    font-size: 130%;
-   }
-   
-
    legend{
        text-align: center;
-       font-style: italic;
        font-weight: bold;
-       font-family: $_Crim;
-       font-size: 150%;
-
    }
    input{
-      font-size: 100%;
+
       transition: all 1s;
    }
-   .botonFormulario{
-    font-family: $_Crim;
-    font-size: 100%;
-   
-    }
 }
 
 .bott{
@@ -53,3 +36,16 @@ form input:focus{
     padding: 30px 70px ;
     font-size: 200%;
 } 
+
+/*EACH de ejmplo, repito proopiedades en estos elementos*/
+
+
+@each $mimo in Nombre,Apellido,email, Contraseña, Direccion,condicion{
+    .#{$mimo} {
+      display: inline-block;
+      font-size: 150%;
+      font-family: $_Crim;
+      font-weight: normal;
+    }
+  }
+  
