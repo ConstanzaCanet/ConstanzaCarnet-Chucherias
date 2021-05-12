@@ -1,0 +1,74 @@
+@import "variables";
+
+.cabeza{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    color: rgba(255, 255, 227, 0.918);
+    font-style: italic;
+    font-family:$_Crim;
+    overflow: hidden;
+
+    h1{
+        font-family: 'Crimson Text', serif;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0%;
+        margin-right: 0%;
+
+    }
+    h2{
+        font-style: italic;
+        font-family:$_Crim;
+    }
+    
+}
+
+.logo{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+  
+.logoIndex{
+    animation-name: efecto;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+}
+
+@keyframes efecto{
+    0%{ 
+        transform: scale(1,1);
+     }
+    25%{
+        transform: scale(1.5,1.5);
+    }
+    50%{
+        transform: scale(2,2);
+    }
+    75%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+
+.menu li a{
+    font-family:$_Crim;
+    font-weight: normal;
+    font-style: italic;
+
+    transition: all 0.8s;
+
+}
+
+.menu li a:hover{
+    font-size: 30px;
+    font-weight: bold;
+}

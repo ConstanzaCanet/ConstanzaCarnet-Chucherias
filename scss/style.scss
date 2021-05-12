@@ -1,0 +1,92 @@
+@import "variables";
+@import "cabecera";
+@import "bloque1";
+@import "bloque2";
+@import "bloque3y4";
+@import "bloque5y6";
+@import "loguin";
+
+
+
+nav{
+    background-color: #f977ce;
+    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    color: aliceblue;
+    font-family:$_Crim;
+    font-size: 130%;
+    font-weight: normal;
+}
+
+.Modal{
+    color: black;
+
+
+      .BackM{
+          background-color: #f977ce;
+         background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+}
+}
+
+
+
+/*IMAGENES*/
+.fotoProducto{
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+
+    transition: width 2s, height 2s;
+}
+
+.fotoProducto:hover{
+    width: 800px;
+    height: 600px;
+}    
+
+/*BODY*/
+main{
+  background-color:rgb(245, 245, 245);
+
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: normal;
+  border-color: gray;
+  border-style: solid;
+  border-top: transparent;
+  border-bottom: transparent;
+ 
+
+}
+
+/*Footer*/
+footer{
+    display: block;
+    text-align: end;
+    justify-content: flex-end;
+
+    color: blanchedalmond;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-weight: normal;
+    margin-right:  3%;
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: blanchedalmond;
+    }
+ }
+
+    .Foot{
+    
+        background-color: #a4508b;
+        background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    #poop{
+        color: blanchedalmond;
+        font-family: 'Crimson Text', serif;
+        font-size: 2em;
+        font-weight: normal;
+
+}
+}

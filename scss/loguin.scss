@@ -1,0 +1,55 @@
+@import "variables";
+
+.tituLoguin{
+    color: rgb(0, 0, 0);
+    background-color: #f977ce;
+    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    font-family: $_Crim;
+    font-size: 200%;
+    font-weight:bolder;
+    text-align: center;
+    font-style: italic;
+}
+
+.LoguinForm{
+   margin-top: 1%;
+   display:block;
+   justify-content:center;
+   width: 90%;
+   margin-left: 5%;
+
+   label{
+    font-style: italic;
+    font-weight:normal;
+    font-family: $_Crim;
+    font-size: 130%;
+   }
+   
+
+   legend{
+       text-align: center;
+       font-style: italic;
+       font-weight: bold;
+       font-family: $_Crim;
+       font-size: 150%;
+
+   }
+   input{
+      font-size: 100%;
+      transition: all 1s;
+   }
+   .botonFormulario{
+    font-family: $_Crim;
+    font-size: 100%;
+   
+    }
+}
+
+.bott{
+    text-align: center;
+}
+
+form input:focus{
+    padding: 30px 70px ;
+    font-size: 200%;
+} 
