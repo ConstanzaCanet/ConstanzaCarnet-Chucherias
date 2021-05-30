@@ -10,22 +10,17 @@
   font-style: italic;
   font-family: "Crimson Text", serif;
   overflow: hidden; }
+  .cabeza .titulo {
+    margin-top: 10%;
+    margin-left: 10%; }
   .cabeza h1 {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0%;
-    margin-right: 0%; }
+    font-size: 200%; }
   .cabeza h2 {
     font-style: italic;
-    font-family: "Crimson Text", serif; }
-
-.logo {
-  height: 50%;
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap; }
+    font-family: "Crimson Text", serif;
+    font-size: 180%; }
 
 .logoIndex {
   animation-name: efecto;
@@ -46,13 +41,13 @@
   100% {
     transform: scale(1, 1); } }
 
-.menu li a {
+div .menu a {
   font-family: "Crimson Text", serif;
   font-weight: normal;
   font-style: italic;
   transition: all 0.8s; }
 
-.menu li a:hover {
+.menu a:hover {
   font-size: 30px;
   font-weight: bold; }
 
