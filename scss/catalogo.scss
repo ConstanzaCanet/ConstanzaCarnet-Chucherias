@@ -1,17 +1,16 @@
 /*PRIMER BLOQUE QUE CORRESPONDE A LA PARTE DEL CATALOGO*/
-.b1{
+.cata{
     background-color: #f5e3e6;
+    padding-top: 5%;
 
-    .b1__h3{
+    .catafont{
         font-size: 2rem;
         font-family: 'Crimson Text', serif;
         font-weight: bolder;
         font-style: italic;
+
     }
-    .b1__f{
-        display:block;
-        justify-content: center;
-    }
+ 
     
     .foto{
         width: 100%;
@@ -25,7 +24,6 @@
         font-family: 'Jim Nightshade', cursive;
         font-size: 80%;
         font-weight: normal;
-        margin-bottom: 15px;
     
 }
 

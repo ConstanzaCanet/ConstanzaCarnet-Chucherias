@@ -52,17 +52,15 @@ div .menu a {
   font-weight: bold; }
 
 /*PRIMER BLOQUE QUE CORRESPONDE A LA PARTE DEL CATALOGO*/
-.b1 {
-  background-color: #f5e3e6; }
-  .b1 .b1__h3 {
+.cata {
+  background-color: #f5e3e6;
+  padding-top: 5%; }
+  .cata .catafont {
     font-size: 2rem;
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
     font-style: italic; }
-  .b1 .b1__f {
-    display: block;
-    justify-content: center; }
-  .b1 .foto {
+  .cata .foto {
     width: 100%;
     height: auto; }
 
@@ -70,8 +68,7 @@ div .menu a {
   color: black;
   font-family: 'Jim Nightshade', cursive;
   font-size: 80%;
-  font-weight: normal;
-  margin-bottom: 15px; }
+  font-weight: normal; }
 
 /*BLOQUE 2 SE APLICA EN LA CABECERA DEL DETALLE DEL PRODUCTO*/
 /*COLORES(ALGUNS)*/
@@ -96,12 +93,6 @@ div .menu a {
     text-align: center;
     padding-bottom: 0%; }
 
-/*
-      .Prod{
-           display: flex;
-           flex-flow: column nowrap;
-           justify-content: center;
-}*/
 /*BOTONES BLOQUE 4*/
 /*COLORES(ALGUNS)*/
 /*LETRAS*/
@@ -209,7 +200,7 @@ div .menu a {
   justify-content: space-between;
   align-items: flex-end; }
 
-/*Probando @EXTEND*/
+/*@EXTEND*/
 .comentarios, .b6__bot-c, .b6__bot-c--modif {
   font-family: "Crimson Text", serif;
   font-style: italic;
