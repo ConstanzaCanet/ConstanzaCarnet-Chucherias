@@ -3,28 +3,17 @@
 
 
 .b5{
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: #d9e4f5;
-    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
-    margin: 0%;
-  
-    .b5__tab{
+    background-color:#8cb7f769;
 
-        margin: 0% 1% 1% 1%;
+    .b5__tab{
         font-family:$_Crim;
         font-style: italic;
-        font-weight: 10%;
-        font-size: 150%;
-        justify-content: space-between;
-        
+        text-align: center;
         .b5__th{
-            background-color: #d9e4f5;
-            background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); 
+            background-color: #2e6fd13a;
             border-bottom: 1px solid #999;
+            text-align: center;
         }
           
         td {
