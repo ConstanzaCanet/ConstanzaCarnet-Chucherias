@@ -74,24 +74,13 @@ div .menu a {
 /*COLORES(ALGUNS)*/
 /*LETRAS*/
 .b2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  padding-top: 5%; }
   .b2 .b2__h3 {
     font-family: 'Crimson Text', serif;
-    font-size: 300%;
     font-weight: bolder;
-    color: #383838; }
-  .b2 .b2__img {
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-    padding-bottom: 0%; }
+    color: #383838;
+    text-decoration: underline;
+    text-align: center; }
 
 /*BOTONES BLOQUE 4*/
 /*COLORES(ALGUNS)*/
@@ -170,10 +159,6 @@ div .menu a {
 /*PARTE DE COMENTARIOS Y TEXTAREA PARA COMENTAR*/
 .b6 {
   color: black;
-  margin-left: 12%;
-  display: block;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
   font-family: "Crimson Text", serif;
   font-style: italic;
@@ -201,23 +186,12 @@ div .menu a {
   align-items: flex-end; }
 
 /*@EXTEND*/
-.comentarios, .b6__bot-c, .b6__bot-c--modif {
+.comentarios {
   font-family: "Crimson Text", serif;
   font-style: italic;
   font-weight: 10%;
-  font-size: 150%; }
-
-.b6__bot-c, .b6__bot-c--modif {
-  width: 10px 30px;
-  margin-top: 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  display: inline-block;
-  color: black;
-  background-color: #fabebe; }
-
-.b6__bot-c--modif {
-  color: #750202; }
+  font-size: 150%;
+  margin-top: 2%; }
 
 /*COLORES(ALGUNS)*/
 /*LETRAS*/
@@ -237,16 +211,6 @@ div .menu a {
 legend {
   text-align: center;
   font-weight: bold; }
-
-input {
-  transition: all 2s; }
-
-.bott {
-  text-align: center; }
-
-form input:focus {
-  padding: 30px 70px;
-  font-size: 200%; }
 
 /*EACH de ejmplo, repito proopiedades en estos elementos*/
 .Nombre {
@@ -298,18 +262,6 @@ nav {
   .Modal .BackM {
     background-color: #f977ce;
     background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%); }
-
-/*IMAGENES*/
-/*Aplico y pruebo MIXINS*/
-.fotoProducto {
-  width: 400px;
-  height: 400px;
-  border-radius: 10%;
-  transition: width 2s, height 2s; }
-
-.fotoProducto:hover {
-  width: 800px;
-  height: 600px; }
 
 /*BODY*/
 main {

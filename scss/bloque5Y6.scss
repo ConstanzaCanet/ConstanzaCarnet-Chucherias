@@ -37,10 +37,8 @@
 /*PARTE DE COMENTARIOS Y TEXTAREA PARA COMENTAR*/
 .b6{
     color: rgb(0, 0, 0);
-    margin-left: 12%;
-    display:block;
-    flex-direction:row;
-    justify-content: space-between;
+    
+   
     align-items:flex-end;
     font-family:$_Crim;
     font-style: italic;
@@ -79,20 +77,6 @@
     font-style: italic;
     font-weight: 10%;
     font-size: 150%;
+    margin-top: 2%;
     }
-
-.b6__bot-c{
-    @extend.comentarios;
-    width:10px 30px;
-    margin-top:10px;
-    border:1px solid #000;
-    border-radius:5px;
-    display:inline-block;
-    color:rgb(0, 0, 0);
-    background-color:rgb(250, 190, 190);
-}
-.b6__bot-c--modif{
- @extend.b6__bot-c;
- color: rgb(117, 2, 2);
-}
 
