@@ -119,77 +119,86 @@
         </div>
       </nav>
 
- <main class="container">
-   <div class="b2">
+ <main class="container-fluid d-grid gap-3">
+  <!--TABLA DE DESCRIPCIÓN DEL PRODUCTO, DEJO CARACTERIASTICAS GENERALES,
+  NO QUISE EXTENDERME MUCHO, ME CENTRO EN LO MÁS BÁSICO-->
+  <div class="mx-auto" style="width: 200px;">
+    <h3 class="h3">
+    CALAVERAS DECORATIVAS
+  </h3>
+  </div>
 
-       <h3 class="producTitulo b2__h3">CALAVERAS DECORATIVAS</h3>
-      <!-- aquí coloco una imágen de ejemplo, quiero hacer un esqueleto de este tipo para los productos-->
-      <img src="../imagenes/craneos de yeso.jpeg" alt="calaveras" title="calaveras" id="calaveras" class="img-fluid rounded mx-auto d-block foto">
-  </div> 
-      <hr>
-      <br>
-
+  <div class="card mb-3 p-2">
+    <div class="row g-0">
+      <div class="col-sm-8 col-lg-8 row-md-8">
+      <img class="card-img-top" src="../imagenes/craneos de yeso.jpeg" alt="Calaveras" title="Calavera">
+      </div>
+  
+      <div class="col-sm-4 col-lg-4 row-md-8">
          <!--EN ESTA SECCION COLOCO PUNTAJE, PRECIO Y FECHA DE PUBLICACION, COMO UNA DESCRIPCION MÁS CONCRETA DEL PRODUCTO-->
+  
+        <table class="table">
+         <caption class="b5__th" style="caption-side: top; color: black;"> 
+            <u>
+              Caracteríasticas del producto
+            </u>
+          </caption> 
+          <tr>
+          <td>Material</td>
+          <td>Columna2 fila1</td>
+           </tr>
+           <tr>
+              <td>Tamaño y peso</td>
+              <td>Columna2 fila2</td>    
+           </tr>
+           <tr>
+              <td>Tecnica de fabricación</td>
+              <td>Columna2 fila3</td>
+           </tr>
+           <tr>
+              <td>Descripción artística</td>
+              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+           </tr>
+     
+      </table>
+    
+  
+      </div>
+    </div>
+  </div>
 
-    <section class="b3">
-      <div class="b3__div">
-      
+  <section class="b3">
+    <div class="b3__div container">
+    
         <p class="puntaje b3__pun fila-1">Puntaje</p>
         <p class="precio b3__pre fila-2">PRECIO</p>
         <time class="FechaPublic b3__fech fila-3">fecha de publicación</time>
-
-      </div>        
+    
+    </div>        
   </section>
 
-  <!--TABLA DE DESCRIPCIÓN DEL PRODUCTO, DEJO CARACTERIASTICAS GENERALES,
-  NO QUISE EXTENDERME MUCHO, ME CENTRO EN LO MÁS BÁSICO-->
-
-  <fieldset class="b5 table">
-    <table class="b5__tab">
-      <caption class="b5__th" style="caption-side: top; color: black;"> 
-         Caracteríasticas del producto
-      </caption> 
-      <tr class="b5__tr">
-          <td>Material</td>
-          <td>Columna2 fila1</td>
-       </tr>
-       <tr class="b5__tr1">
-          <td>Tamaño y peso</td>
-          <td>Columna2 fila2</td>
-       </tr>
-       <tr class="b5__tr2">
-          <td>Tecnica de fabricación</td>
-          <td>Columna2 fila3</td>
-       </tr>
-       <tr class="b5__tr3">
-          <td>Descripción artística</td>
-          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-       </tr>
-    </table>
- </fieldset>
-
-
-</main>
- 
-
+   <div class="p-2 bg-light border">
    <!--Comentarios-->
    <form action="" class="b6 container">
-    <label for="b6__com">Dejanos tu comentario</label>
-    <textarea name="comentario" class="b6__text" cols="30" rows="10"></textarea> 
-    <input class="btn btn-primary" type="submit" value="Enviar">
-    <input class="btn btn-primary" type="reset" value="Borrar">
- </form>  
- <!--Aqui irian los comentarios-->
- <table class="comentarios container">
-     <tr>
-         <td>
-             <p>Comentario(17)</p>
-         </td>
-     </tr>
-     <tr>
-         <td>Comentario (16)</td>
-     </tr>
- </table>
+      <label for="b6__com">Dejanos tu comentario</label>
+      <textarea name="comentario" class="b6__text" cols="30" rows="10"></textarea> 
+      <input class="btn btn-primary" type="submit" value="Enviar">
+      <input class="btn btn-primary" type="reset" value="Borrar">
+   </form>  
+   <!--Aqui irian los comentarios-->
+   <table class="comentarios container">
+       <tr>
+           <td>
+               <p>Comentario(17)</p>
+           </td>
+       </tr>
+       <tr>
+           <td>Comentario (16)</td>
+       </tr>
+   </table>
+   </div>
+
+ </main>
    
       <!--FINAL DE PAGINA,FOOTER-->
   <div class="container-fluid Foot">   

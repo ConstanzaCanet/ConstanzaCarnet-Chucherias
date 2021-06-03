@@ -1,14 +1,9 @@
-/*BLOQUE 2 SE APLICA EN LA CABECERA DEL DETALLE DEL PRODUCTO*/
+/*B2 SE APLICA EN LA CABECERA DEL DETALLE DEL PRODUCTO*/
 @import "variables";
 
-
-.b2{
-    padding-top: 5%;
-    .b2__h3{
-        font-family: 'Crimson Text', serif;
-        font-weight: bolder;
-        color: $_negro;   
-        text-decoration: underline;
-        text-align: center;     
-    }
+.b2__h3{
+    font-family: $_Crim;
+    font-weight: bolder;
+    color: $_negro;   
+    text-align: center; 
 }

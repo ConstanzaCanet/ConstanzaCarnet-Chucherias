@@ -124,74 +124,89 @@
       </nav>
 
     
-<main class="container-fluid">
+ <main class="container-fluid d-grid gap-3">
     <!--TABLA DE DESCRIPCIÓN DEL PRODUCTO, DEJO CARACTERIASTICAS GENERALES,
     NO QUISE EXTENDERME MUCHO, ME CENTRO EN LO MÁS BÁSICO-->
-
-
-  <div class="card container">
-    <img class="card-img-top" src="../imagenes/atrapasueños.jpg" alt="Atrapasueño" title="Atrapasueño">
-    <div class="card-body">
-      <h5 class="card-title b2__h3">ATRAPASUEÑOS</h5>
+    <div class="mx-auto" style="width: 200px;">
+      <h3 class="h3">
+        ATRAPASUEÑOS
+      </h3>      
     </div>
-      <table class="table">
-        
-          <caption class="b5__th" style="caption-side: top; color: black;"> 
-             Caracteríasticas del producto
+
+   <div class="card mb-3 p-2">
+    <div class="row g-0">
+      <div class="col-sm-8 col-lg-8 row-md-8">
+        <img class="card-img-top" src="../imagenes/atrapasueños.jpg" alt="Atrapasueño" title="Atrapasueño">
+      </div>
+
+      <div class="col-sm-4 col-lg-4 row-md-8">
+         <!--EN ESTA SECCION COLOCO PUNTAJE, PRECIO Y FECHA DE PUBLICACION, COMO UNA DESCRIPCION MÁS CONCRETA DEL PRODUCTO-->
+
+        <table class="table">
+         <caption class="b5__th" style="caption-side: top; color: black;"> 
+            <u>
+              Caracteríasticas del producto
+            </u>
           </caption> 
-          <tr class="b5__tr">
+          <tr>
           <td>Material</td>
           <td>Columna2 fila1</td>
            </tr>
-           <tr class="b5__tr1">
+           <tr>
               <td>Tamaño y peso</td>
               <td>Columna2 fila2</td>    
            </tr>
-           <tr class="b5__tr2">
+           <tr>
               <td>Tecnica de fabricación</td>
               <td>Columna2 fila3</td>
            </tr>
-           <tr class="b5__tr3">
+           <tr>
               <td>Descripción artística</td>
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
            </tr>
      
       </table>
+    
+
+      </div>
     </div>
-    <!--EN ESTA SECCION COLOCO PUNTAJE, PRECIO Y FECHA DE PUBLICACION, COMO UNA DESCRIPCION MÁS CONCRETA DEL PRODUCTO-->
-    <section class="b3">
-      <div class="b3__div">
-      
-          <p class="puntaje b3__pun fila-1">Puntaje</p>
-          <p class="precio b3__pre fila-2">PRECIO</p>
-          <time class="FechaPublic b3__fech fila-3">fecha de publicación</time>
-      
-      </div>        
-  </section>
+   </div>
+  
+   <section class="b3">
+    <div class="b3__div container">
+    
+        <p class="puntaje b3__pun fila-1">Puntaje</p>
+        <p class="precio b3__pre fila-2">PRECIO</p>
+        <time class="FechaPublic b3__fech fila-3">fecha de publicación</time>
+    
+    </div>        
+   </section>
 
-
-
-  <!--Comentarios-->
-  <form action="" class="b6 container">
-     <label for="b6__com">Dejanos tu comentario</label>
-     <textarea name="comentario" class="b6__text" cols="30" rows="10"></textarea> 
-     <input class="btn btn-primary" type="submit" value="Enviar">
-     <input class="btn btn-primary" type="reset" value="Borrar">
-  </form>  
-  <!--Aqui irian los comentarios-->
-  <table class="comentarios container">
-      <tr>
+   <div class="p-2 bg-light border">
+     <!--Comentarios-->
+     <form action="" class="b6 container">
+       <label for="b6__com">Dejanos tu comentario</label>
+       <textarea name="comentario" class="b6__text" cols="30" rows="10"></textarea> 
+       <input class="btn btn-primary" type="submit" value="Enviar">
+       <input class="btn btn-primary" type="reset" value="Borrar">
+     </form>  
+     <!--Aqui irian los comentarios-->
+     <table class="comentarios container">
+        <tr>
           <td>
               <p>Comentario(17)</p>
           </td>
-      </tr>
-      <tr>
-          <td>Comentario (16)</td>
-      </tr>
-  </table>
+        </tr>
+        <tr>
+           <td>Comentario (16)</td>
+        </tr>
+     </table>
+    </div>
+  
+  
     
-</main>
- 
+  </main>
+
       <!--FINAL DE PAGINA,FOOTER-->
       <div class="container-fluid Foot">   
         <div class="row justify-content-end">
