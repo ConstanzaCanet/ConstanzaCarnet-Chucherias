@@ -37,7 +37,7 @@
               </a>
        </div>
        <div class="col-8 justify-content-center d-flex-nowrap titulo">
-          <h1>CHUCHERÍAS</h1>
+          <h1 class="h1">CHUCHERÍAS</h1>
           <h2 class="subTitulo">Arte reciclado</h2>
        </div>
     
@@ -136,9 +136,28 @@
    <div class="card mb-3 p-2">
     <div class="row g-0">
       <div class="col-sm-8 col-lg-8 row-md-8">
-        <img class="card-img-top" src="../imagenes/atrapasueños.jpg" alt="Atrapasueño" title="Atrapasueño">
+        <div id="carouselExampleControls" class="carousel slide pause" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../imagenes/atrapa_sue.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../imagenes/atrapa.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../imagenes/atapa.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-
       <div class="col-sm-4 col-lg-4 row-md-8">
          <!--EN ESTA SECCION COLOCO PUNTAJE, PRECIO Y FECHA DE PUBLICACION, COMO UNA DESCRIPCION MÁS CONCRETA DEL PRODUCTO-->
 
@@ -201,11 +220,9 @@
            <td>Comentario (16)</td>
         </tr>
      </table>
-    </div>
-  
-  
-    
+    </div>    
   </main>
+  
 
       <!--FINAL DE PAGINA,FOOTER-->
       <div class="container-fluid Foot">   
