@@ -27,7 +27,7 @@ nav{
 }
 }
 .carousel-inner{
-    max-height: 80vh; 
+    max-height: 60vh; 
 }
 .carousel-caption{
     position: absolute; 
@@ -38,27 +38,8 @@ nav{
     background-color: rgba(0, 0, 0, 0.322);
 }
 
-.ham{
-    display: flex;
-    justify-content: center;
-}
 
 
-/*modifique algunos breackpoins puntuales*/
-@media (max-width: 600px) {
-    ham{
-        display: flex;
-        justify-content: center;
-    }
-
-  }
-@media (max-width: 360px) {
-
-  }
-
-  @media (max-width: 320px) {
-
-  }
 
 /*BODY*/
 main{

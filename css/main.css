@@ -56,7 +56,11 @@ div .menu a {
     font-size: 2rem;
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
-    font-style: italic; }
+    font-style: italic;
+    margin-left: 10%; }
+  @media (max-width: 280px) {
+    .cata .catafont {
+      font-size: 1rem; } }
   .cata .foto {
     width: 80%;
     height: auto; }
@@ -66,9 +70,6 @@ div .menu a {
   font-family: 'Jim Nightshade', cursive;
   font-size: 80%;
   font-weight: normal;
-  margin-left: 10%; }
-
-.titu {
   margin-left: 10%; }
 
 /*B2 SE APLICA EN LA CABECERA DEL DETALLE DEL PRODUCTO*/
@@ -255,7 +256,7 @@ nav {
     background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%); }
 
 .carousel-inner {
-  max-height: 80vh; }
+  max-height: 60vh; }
 
 .carousel-caption {
   position: absolute;
@@ -264,16 +265,6 @@ nav {
   color: #fff;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.322); }
-
-.ham {
-  display: flex;
-  justify-content: center; }
-
-/*modifique algunos breackpoins puntuales*/
-@media (max-width: 600px) {
-  ham {
-    display: flex;
-    justify-content: center; } }
 
 /*BODY*/
 main {

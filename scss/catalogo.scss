@@ -8,7 +8,15 @@
         font-family: 'Crimson Text', serif;
         font-weight: bolder;
         font-style: italic;
+        margin-left: 10%;
     }
+    
+  @media (max-width: 280px) {
+    .catafont{
+       font-size:1rem ;
+    }
+ }
+
  
     
     .foto{
@@ -27,6 +35,3 @@
     
 }
 
-.titu{
-    margin-left: 10%;
-}
