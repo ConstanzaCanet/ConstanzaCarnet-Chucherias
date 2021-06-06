@@ -7,10 +7,6 @@
     font-style: italic;
     font-family:$_Crim;
     overflow: hidden;
-    .titulo{
-     margin-top: 10%;
-     margin-left: 10%;
-    }
     h1{
         font-family: 'Crimson Text', serif;
         font-weight: bold;
@@ -31,6 +27,10 @@
     animation-duration: 0.5s;
     animation-delay: 0s;
 }
+
+
+
+
 
 @keyframes efecto{
     0%{ 

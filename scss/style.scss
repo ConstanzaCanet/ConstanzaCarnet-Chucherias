@@ -26,7 +26,39 @@ nav{
          background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
 }
 }
+.carousel-inner{
+    max-height: 80vh; 
+}
+.carousel-caption{
+    position: absolute; 
+    top: 30%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.322);
+}
 
+.ham{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*modifique algunos breackpoins puntuales*/
+@media (max-width: 600px) {
+    ham{
+        display: flex;
+        justify-content: center;
+    }
+
+  }
+@media (max-width: 360px) {
+
+  }
+
+  @media (max-width: 320px) {
+
+  }
 
 /*BODY*/
 main{
@@ -66,4 +98,3 @@ footer{
 
 }
 }
-
