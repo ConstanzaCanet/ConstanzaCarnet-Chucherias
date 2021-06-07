@@ -26,9 +26,23 @@ nav{
          background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
 }
 }
+/*AQUI TRABAJE UN POCO EL CAROUSEL PARA QUE NO FUERA ALGO QUE OCUPASE TANTO ESPACIO.*/
 .carousel-inner{
     max-height: 60vh; 
 }
+/*UTILIZANDO MEDIA PARA CAROUSEL*/
+@media (max-width: 360px) {
+    .carousel-inner{
+       max-height: 60vh;
+    }
+ }
+@media (max-width: 800px) {
+    .carousel-inner{
+       max-height: 20vh;
+    }
+ }
+
+ /*ESCRITURA DEL  CARPUSEL*/
 .carousel-caption{
     position: absolute; 
     top: 30%;
@@ -37,6 +51,13 @@ nav{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.322);
 }
+
+@media (max-width: 768px) {
+    .carousel-caption{
+        top: 10%;
+    }
+ }
+
 
 
 
