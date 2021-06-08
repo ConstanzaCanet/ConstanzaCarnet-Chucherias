@@ -2,8 +2,8 @@
 
 .tituLoguin{
     color: rgb(0, 0, 0);
-    background-color: #f977ce;
-    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    background-color: #c370f3;
+    background-image: linear-gradient(315deg, #f58cd2 0%, #ad80f5 74%);
     font-family: $_Crim;
     font-size: 150%;
     font-weight:bolder;
@@ -14,16 +14,14 @@
     border-width: 0,1px;
 }
 
-
+.LoguinForm{
+  font-weight: bold;
+  font-family: $_Crim;
+}
 
 legend{
     text-align: center;
     font-weight: bold;
-}
-
-.boton{
-  width: 100vh;
-  text-align: center; 
 }
 
 

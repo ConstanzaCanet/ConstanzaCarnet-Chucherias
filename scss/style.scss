@@ -1,16 +1,15 @@
 @import "variables";
 @import "cabecera";
 @import "catalogo";
-@import "bloque2";
-@import "bloque3y4";
-@import "bloque5y6";
+@import "puntaje";
+@import "tablaComent";
 @import "loguin";
 
 
 
 nav{
-    background-color: #f977ce;
-    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%);
+    background-color: #c370f3;
+    background-image: linear-gradient(315deg, #f58cd2 0%, #ad80f5 74%);
     color: aliceblue;
     font-family:$_Crim;
     font-size: 130%;
@@ -30,6 +29,17 @@ nav{
 .carousel-inner{
     max-height: 60vh; 
 }
+
+ /*ESCRITURA DEL  CARPUSEL*/
+.carousel-caption{
+    position: absolute; 
+    top: 25%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
 /*UTILIZANDO MEDIA PARA CAROUSEL*/
 @media (max-width: 360px) {
     .carousel-inner{
@@ -42,15 +52,6 @@ nav{
     }
  }
 
- /*ESCRITURA DEL  CARPUSEL*/
-.carousel-caption{
-    position: absolute; 
-    top: 30%;
-    z-index: 10;
-    color: #fff;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.322);
-}
 
 @media (max-width: 768px) {
     .carousel-caption{
@@ -58,7 +59,14 @@ nav{
     }
  }
 
-
+ @media (max-width: 1024px) {
+    .carousel-inner{
+       max-height: 30vh;
+    }
+    .carousel-caption{
+        top: 30%;
+    }
+ }
 
 
 
